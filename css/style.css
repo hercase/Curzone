@@ -331,6 +331,13 @@ footer{
 	text-align: center;
 	color: #fff;
 }
+
+@media (max-width:1368px){
+	#headfix.is-fixed {
+	padding: 0 3%;
+	}
+}
+
 @media (max-width: 1024px) {
 	.slider{
 		height: auto;
