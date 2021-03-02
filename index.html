@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+  <title>Curzone</title>
+</head>
+<header id="header" class="header">
+  <div id="headfix" class="container">
+    <div class="logo">
+      <img class="logo" src="./assets/logonew.png">
+    </div>
+    <nav id="navegacion">
+      <a href="#home" class="nav-link">Inicio</a>
+      <a href="#cursos" class="nav-link">Cursos</a>
+      <a href="#experts" class="nav-link">Tecnologias</a>
+      <a href="#contact" class="nav-link">Contacto</a>
+      <a href="#" class="submenu">
+        <img src="./assets/cart.png" id="img-carrito"/>
+        <span id="totalCarrito">$0.00</span>
+        <div id="carrito">
+          <table id="lista-carrito">
+            <thead>
+              <tr>
+                <th>Imagen</th>
+                <th>Nombre</th>
+                <th>Precio</th>
+                <th>Cantidad</th>
+                <th></th>
+                <th>Total</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </a>
+    </nav>
+  </div>
+</header>
+
+<body>
+  <main>
+    <section class="hero">
+      <div class="herotext">
+        <h1>Welcome aboard!</h1>
+        <p>Queremos invitarte a que formes parte de nuestra red de aprendizaje</p>
+        <p>En <strong>Curzone</strong> somos el lugar de él aqui y el ahora de tus metas hechas realidad</p>
+      </div>
+      <div class="container">
+        <div class="slider">
+          <ul>
+            <li><img src="./assets/teach.svg" alt=""></li>
+            <li><img src="./assets/proud.svg" alt=""></li>
+            <li><img src="./assets/git.svg" alt=""></li>
+            <li><img src="./assets/teach.svg" alt=""></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <h2 class="subtitulo" id="experts">Desarrolla en: </h2>
+    <div class="container">
+      <section class="experts" id="experts">
+        <div class="cont-expert">
+          <img src="./assets/html.svg" alt="HTML5">
+          <h3 class="n-expert">HTML</h3>
+          <p>Con HTML tranforma simples etiquetas en una web funcional para desarrollar la estructura de tu
+            pagina web.</p>
+        </div>
+        <div class="cont-expert">
+          <img src="./assets/css.svg" alt="CSS">
+          <h3 class="n-expert">CSS</h3>
+          <p>Con CSS dale colores, perzonaliza tus classes , dale rienda suelta a tu imaginacion.</p>
+        </div>
+        <div class="cont-expert">
+          <img src="./assets/javascript.svg" alt="javascript">
+          <h3 class="n-expert">Javascript</h3>
+          <p>Con JS dale animaciones, funciones y logica de programacion a tu pagina web.</p>
+        </div>
+    </div>
+    </section>
+    <section id="cursos">
+      <h2 class="subtitulo">Cursos</h2>
+      <div id="lista-cursos" class="container">
+        <div class="card">
+          <img src="./assets/curso1.jpg" class="imagen-curso">
+          <div class="info-card">
+            <h4>HTML5, CSS3, JavaScript</h4>
+            <p>Franco Melcon</p>
+            <img src="./assets/estrellas.png">
+            <p class="precio">$220</p>
+            <a href="#" class="agregar-carrito" data-id="1">Agregar Al Carrito</a>
+          </div>
+        </div>
+        <!--.card-->
+        <div class="card">
+          <img src="./assets/css-animacion.png" class="imagen-curso">
+          <div class="info-card">
+            <h4>CSS animaciones</h4>
+            <p>Franco Melcon</p>
+            <img src="./assets/estrellas.png">
+            <p class="precio">$250</p>
+            <a href="#" class="agregar-carrito" data-id="2">Agregar Al Carrito</a>
+          </div>
+        </div>
+        <!--.card-->
+        <div class="card">
+          <img src="./assets/jQuery-logo.png" class="imagen-curso">
+          <div class="info-card">
+            <h4>Animaciones en Jquery</h4>
+            <p>Franco Melcon</p>
+            <img src="./assets/estrellas.png">
+            <p class="precio">$500</p>
+            <a href="#" class="agregar-carrito" data-id="3">Agregar Al Carrito</a>
+          </div>
+        </div>
+        <!--.card-->
+        <div class="card">
+          <img src="./assets/angular.png" class="imagen-curso">
+          <div class="info-card">
+            <h4>Angular Primeros pasos</h4>
+            <p>Franco Melcon</p>
+            <img src="./assets/estrellas.png">
+            <p class="precio">$210</p>
+            <a href="#" class="agregar-carrito" data-id="4">Agregar Al Carrito</a>
+          </div>
+        </div>
+        <!--.card-->
+        <div class="card">
+          <img src="./assets/python.png" class="imagen-curso">
+          <div class="info-card">
+            <h4>Python desde cero</h4>
+            <p>Franco Melcon</p>
+            <img src="./assets/estrellas.png">
+            <p class="precio">$200</p>
+            <a href="#" class="agregar-carrito" data-id="5">Agregar Al Carrito</a>
+          </div>
+        </div>
+        <!--.card-->
+        <div class="card">
+          <img src="./assets/ruby.png" class="imagen-curso">
+          <div class="info-card">
+            <h4>Ruby primeros pasos</h4>
+            <p>Franco Melcon</p>
+            <img src="./assets/estrellas.png">
+            <p class="precio">$200</p>
+            <a href="#" class="agregar-carrito" data-id="6">Agregar Al Carrito</a>
+          </div>
+        </div>
+        <!--.card-->
+        <div class="card">
+          <img src="./assets/react.png" class="imagen-curso">
+          <div class="info-card">
+            <h4>React para principiantes</h4>
+            <p>Franco Melcon</p>
+            <img src="./assets/estrellas.png">
+            <p class="precio">$200</p>
+            <a href="#" class="agregar-carrito" data-id="7">Agregar Al Carrito</a>
+          </div>
+        </div>
+        <!--.card-->
+        <div class="card">
+          <img src="./assets/react.png" class="imagen-curso">
+          <div class="info-card">
+            <h4>React Avanzado</h4>
+            <p>Franco Melcon</p>
+            <img src="./assets/estrellas.png">
+            <p class="precio">$700</p>
+            <a href="#" class="agregar-carrito" data-id="8">Agregar Al Carrito</a>
+          </div>
+        </div>
+        <!--.card-->
+      </div>
+    </section>
+  </main>
+  <footer id="contacto">
+    <div class="footer-content">
+      <div class="contact-us" id="contact">
+        <h2 class="brand">F.M design</h2>
+        <p class="logo-name">Curzone Cursos Online</p>
+      </div>
+      <div class="social-media">
+        <a href="https://www.facebook.com/" class="social-media-icon">
+          <i class='bx bxl-facebook'></i>
+        </a>
+        <a href="https://twitter.com/?lang=es" class="social-media-icon">
+          <i class='bx bxl-twitter'></i>
+        </a>
+        <a href="https://www.instagram.com/?hl=es-la" class="social-media-icon">
+          <i class='bx bxl-instagram'></i>
+        </a>
+      </div>
+    </div>
+    <div class="line"></div>
+    <div class="registred">Derechos reservados a FMdesign®</div>
+  </footer>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
